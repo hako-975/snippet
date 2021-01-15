@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$this->session->set_flashdata('message', 
+  '<div class="alert alert-success" role="alert">${1:Your content has been posted!}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+  </div>'
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cialert</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

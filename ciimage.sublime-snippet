@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\$${1:photo_profile} = \$_FILES['${1:photo_profile}']['name'];
+if (\$${1:photo_profile}) {
+	\$config['upload_path'] = './assets/${2:img/img_profiles/}';
+	\$config['allowed_types'] = 'gif|jpg|png|jpeg';
+
+	\$this->load->library('upload', \$config);
+
+	if (\$this->upload->do_upload('${1:photo_profile}')) {
+		\$new_${1:photo_profile} = \$this->upload->data('file_name');
+		\$this->db->set('${1:photo_profile}', \$new_${1:photo_profile});
+	} else {
+		echo \$this->upload->display_errors();
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ciimage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

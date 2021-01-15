@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+if (\$this->form_validation->run() == false) {
+    \$this->load->view('templates/${3:main_}header', \$data);
+    \$this->load->view('${1:controller}/${2:filename}', \$data);
+    \$this->load->view('templates/${3:main_}footer', \$data);  
+} else {
+    \$this->${4:model}->${5:function}(${6:parameter});
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fvr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

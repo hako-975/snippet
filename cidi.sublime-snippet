@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$data = [
+	'${1:coloumn_name}' => htmlspecialchars(\$this->input->post('${1:coloumn_name}')),
+	'${2:coloumn_name}' => htmlspecialchars(\$this->input->post('${2:coloumn_name}'))
+];
+
+\$this->db->insert('${3:table_name}', \$data);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cidi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

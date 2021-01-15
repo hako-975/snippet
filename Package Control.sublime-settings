@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"Copy Paste Increment",
+		"Emmet",
+		"Increment Decrement",
+		"Increment Selection",
+		"Incrementor",
+		"Material Theme",
+		"Package Control"
+	]
+}

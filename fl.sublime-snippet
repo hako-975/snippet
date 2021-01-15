@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<form method="post">
+  <div class="form-group">
+    <label for="${1:username}">${1:Username}</label>
+    <input type="text" id="${1:username}" class="form-control" name="${1:username}" placeholder="${1:username}">
+  </div>
+  <div class="form-group">
+    <label for="${2:password}">${2:Password}</label>
+    <input type="${3:password}" id="${2:password}" class="form-control" name="${2:password}" placeholder="${2:password}">
+  </div>
+  <div class="form-group">
+    <button type="submit" name="${4:login}" class="btn btn-primary">${4:Login}</button>
+  </div>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

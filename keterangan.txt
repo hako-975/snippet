@@ -1,0 +1,16 @@
+bu		= base_url
+cialert		= membuat alert
+callalert 	= memanggil alert
+cidi		= codeigniter data insert
+cigw 		= codeigniter get_where
+ciq 		= codeigniter query
+datatitle 	= membuat title pada controller
+fg		= form-group
+fl		= form-login
+fv		= form-validation-set_rules
+fvr		= form-validation-run
+pf		= public function
+phpp 		= php echo
+
+lokasi
+C:\Users\NamaUser\AppData\Roaming\Sublime Text 3\Packages\User

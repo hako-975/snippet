@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label for="${1:username}">${1:Username}</label>
+	<input type="${2:text}" id="${1:username}" class="form-control" name="${1:username}">
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
